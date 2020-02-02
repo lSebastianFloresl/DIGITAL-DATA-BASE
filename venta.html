@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/grid.css">
+    <link rel="stylesheet" href="CSS/animation.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
+    <title>DIGIWEB</title>
+  </head>
+
+  <body>
+    <nav>
+      DIGITAL DATA BASE
+    <div class="nav_options">
+      <ul>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Términos y condiciones</a></li>
+      </ul>
+    </div>
+
+    </nav>
+    <br>
+    <br>
+    <br>
+  <div class="container">
+    <div class="row">
+      <div class="column-3"></div>
+      <div class="modulo_pago">
+        <h3>PRECIO</h3>
+        <p>Esta 3 TERAS puerco</p>
+      </div>
+      <div class="column-7"></div>
+      <div class="modulo_pago">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <label for=”nombre”>Nombre:</label>
+          <br>
+          <input type=”text” id=”nombre” name=”user_name” />
+          <br>
+          <br>
+          <label for=“edad“>Edad:</label>
+          <br>
+          <input type=”number” id=”edad” name=”user_age” />
+          <br>
+          <br>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="QTYQP5D75FHUU" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_PE/i/scr/pixel.gif" width="1" height="1" />
+          </form>
+
+          <button type=”submit”>Enviar mis datos</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+<!-- Aquí inicia el main page -->
+
+
+<script src="SCRIPT/script.js"></script>
+  </body>
+</html>

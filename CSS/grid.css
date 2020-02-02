@@ -1,0 +1,60 @@
+.container{
+  max-width: 900px;
+  margin:auto;
+}
+
+.row{
+  display: flex;
+}
+
+.column-1{
+  width: 10%;
+}
+
+.column-2{
+  width: 20%;
+}
+
+.column-3{
+  width: 30%;
+}
+
+.column-4{
+  width: 40%;
+}
+
+.column-5{
+  width: 50%;
+}
+
+.column-6{
+  width: 60%;
+}
+
+.column-7{
+  width: 70%;
+}
+
+.column-8{
+  width: 80%;
+}
+
+.column-9{
+  width: 90%;
+}
+
+.column-10{
+  width: 100%;
+}
+
+.column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-7,.column-8,.column-9,.column-10,.column-11,.column-12{
+  padding:10px;
+}
+
+@media (max-widht: 900px) {
+  .row{
+    display: inherit;
+  }
+  .column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-7,.column-8,.column-9,.column-10,.column-11,.column-12{
+  width:100%;
+  }

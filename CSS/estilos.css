@@ -1,0 +1,108 @@
+/* Variables */
+:root{
+--red-color: #FF0110;
+--purple-color: #38003D;
+}
+/* Variables */
+html,body{
+  padding:0px;
+  margin:0px;
+  background-color: white;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+nav{
+  display: flex;
+  background-color: var(--red-color);
+  color: var(--purple-color);
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label{
+    font-size: 20px;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-right: 30px;
+  list-style: none;
+}
+
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+}
+
+/* Aquí inicia el main page */
+.main_section{
+   text-align: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.main_section p {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.products{
+  background-image: url("../IMAGENES/rectan1.png");
+  height: 10px;
+  background-size: cover;
+  background-position: center top;
+  padding: 18%;
+  display: flex;
+  text-align: center;
+}
+
+.product{
+  padding: 10px;
+  margin-top: -240px;
+}
+
+.content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 2px #929292;
+}
+
+.content h1{
+  font-size: 20px;
+}
+
+.main_button{
+  background-color: var(--red-color);
+  width:100%;
+  padding: 10px;
+  font-size: 10px;
+  color: var(--purple-color);;
+  border: 0;
+  cursor: pointer;
+}
+
+.main_button:hover{
+  color: white;
+}
+
+.modulo_pago{
+  background-color: white;
+  box-shadow: 0 0 2px #929292;
+  PADDING: 10%;
+}
+
+.modulo_pago input{
+  width: 100%;
+}
